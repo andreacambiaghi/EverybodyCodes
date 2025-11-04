@@ -1,0 +1,3 @@
+Xanquor,Ylarcoryx,Lormal,Lirzeth,Arvnor,Braegnar,Lirdravor,Qyrafyr,Vyrvel,Drazgaz,Quarnkyr,Cynvarorath,Kroncyth,Zordar,Mornzrak,Iskargaz,Olarxar,Brylulrix,Adalynn,Vyraris
+
+L13,R5,L12,R7,L8,R17,L18,R13,L9,R13,L5,R14,L5,R17,L5,R12,L5,R19,L5,R16,L5,R15,L12,R12,L15,R7,L17,R13,L18
