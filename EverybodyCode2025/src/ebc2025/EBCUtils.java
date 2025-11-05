@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class EBCUtils {
+
+    private long timerStart;
+
     public EBCUtils(String day) {
         if (day == null || day.isEmpty()) {
             return;
@@ -16,6 +19,8 @@ public abstract class EBCUtils {
         List<String> part1 = readInputFile("in/day" + day + ".1.txt");
         List<String> part2 = readInputFile("in/day" + day + ".2.txt");
         List<String> part3 = readInputFile("in/day" + day + ".3.txt");
+
+        timerStart = System.nanoTime();
 
         solve(part1, part2, part3);
     }//AOCPuzzle
@@ -58,7 +63,6 @@ public abstract class EBCUtils {
     // TIME
 
     private int part = 1;
-    private long timerStart = System.nanoTime();
 
     public void solution(int answer) {
         solution(String.valueOf(answer));
