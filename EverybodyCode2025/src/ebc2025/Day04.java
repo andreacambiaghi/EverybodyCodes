@@ -24,17 +24,12 @@ public class Day04 extends EBCUtils {
         for(String row : part3)
             gears.addAll(convertToInts(new ArrayList<>(List.of(row.split("\\|")))));
 
-        Map<Integer, Double> turns = new HashMap<>();
-        
-        for (int i = 1; i < gears.size() - 1; i += 2) {
+        double turns = 1.0;
+        for(int i = 1; i < gears.size(); i += 2)
+            turns *= (double) gears.get(i - 1) / gears.get(i);
 
-            double rate = (double) gears.get(i-1) / gears.get(i);
-            turns.put(i, turns.getOrDefault(i, 1.0) * rate * turns.getOrDefault(i-1, 1.0));
-            turns.put(i + 1, turns.get(i));
+        solution((long) (turns*100));
 
-        }//for i
-
-        solution((long) ((gears.get(gears.size() - 2) / (double) gears.getLast()) * turns.get(gears.size() - 2) * 100.0));
 
     }//solve
 
