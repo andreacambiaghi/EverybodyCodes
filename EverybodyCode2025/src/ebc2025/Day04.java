@@ -1,11 +1,8 @@
 package ebc2025;
 
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class Day04 extends EBCUtils {
 
@@ -29,7 +26,7 @@ public class Day04 extends EBCUtils {
             turns *= (double) gears.get(i - 1) / gears.get(i);
 
         solution((long) (turns*100));
-        
+
     }//solve
 
 }//class
