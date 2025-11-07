@@ -29,8 +29,7 @@ public class Day04 extends EBCUtils {
             turns *= (double) gears.get(i - 1) / gears.get(i);
 
         solution((long) (turns*100));
-
-
+        
     }//solve
 
 }//class
