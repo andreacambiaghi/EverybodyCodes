@@ -1,0 +1,28 @@
+Jardax,Dardax,Brylvyr,Cynvarmarn,Uldax,Fendax,Darindor,Thymmarn,Thymgonn,Larvyr,Jarsyron,Xarmyr,Xarvyr,Fenvyr,Jarvyr,Olarindor,Lartor,Fengonn,Jarindor,Olarzeth,Ulmyr,Fensyron,Jartor,Olartor,Fenmyr,Cynvargonn,Xarzeth,Xardax,Darmyr,Cynvardax,Darmyr,Cynvartor,Lardax,Xarmarn,Darsyron,Thymindor,Larindor,Thymsyron,Xartor,Cynvarmyr,Larmarn,Darzeth,Xarindor,Cynvarvyr,Thymzeth,Thymmyr,Cynvarzeth,Thymvyr,Larsyron,Cynvarsyron,Jarmyr,Cynvarmyr,Larmyr,Ulgonn,Olarmyr,Thymdax,Brylmarn,Bryltor,Largonn,Jarmyr,Dartor,Larmyr,Brylgonn,Jarmarn,Darmarn,Cynvarindor,Ulindor,Xarsyron,Brylindor,Dargonn,Fenmarn,Thymtor,Thymmyr,Darvyr,Ulsyron,Larzeth,Brylmyr,Olardax,Ulmarn,Olarsyron,Fentor,Xargonn,Ultor,Xarmyr,Olargonn,Brylzeth,Ulvyr,Olarvyr,Fenzeth,Brylsyron,Olarmyr,Ulzeth,Bryldax,Fenmyr,Brylmyr,Jargonn,Fenindor,Jarzeth,Ulmyr,Olarmarn
+
+D > a
+g > o
+a > r,x,v
+r > i,o,n,v,t,s,g,m,z,d
+s > y
+T > h
+i > n
+n > d,n,v,t,s,i,g,m,z
+t > o,h
+d > o,a
+F > e
+o > r,n
+L > a
+U > l
+J > a
+e > t,v
+O > l
+B > r
+l > v,t,s,i,g,m,z,d
+C > y
+v > y,a
+y > r,l,v,m
+m > y,a,v,t,s,i,g,m,z,d
+X > a
+h > v
+z > e

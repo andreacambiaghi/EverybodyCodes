@@ -1,0 +1,16 @@
+Palthcyth,Uraris,Palthendris,Urcyth,Ulkaris,Ulkendris,Urendris,Ulkcyth,Paltharis
+
+a > r,b
+r > e,i,b
+k > c,e,a
+n > d
+e > n
+d > r
+i > s
+t > h
+h > c,e,a
+l > b,t
+U > r,l
+P > a
+c > y
+y > t
