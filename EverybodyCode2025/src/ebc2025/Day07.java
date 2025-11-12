@@ -32,13 +32,12 @@ public class Day07 extends EBCUtils {
         for(String name : names)
             if(isValidName(name))
                 compose(validNames, name);
-        validNames = new HashSet<>(validNames.stream().filter(name -> name.length() >= 7).toList());
         solution(validNames.size());
 
     }//solve
 
     private void readNamesRules(List<String> input) {
-        
+
         names = List.of(input.getFirst().split(","));
         rules = new HashMap<>();
         for(int i = 2; i < input.size(); i++) {
@@ -66,7 +65,9 @@ public class Day07 extends EBCUtils {
         if(name.length() > 11)
             return;
 
-        validNames.add(name);
+        if(name.length() >= 7)
+            validNames.add(name);
+
         String last = name.charAt(name.length()-1) + "";
         List<String> valids = rules.getOrDefault(last, new ArrayList<>());
         for(String valid : valids)
