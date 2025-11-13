@@ -1,7 +1,7 @@
-package ebc2025;
+package ebc_s1;
 
-public class EBC2025 {
+public class EBCs1 {
     public static void main(String[] args) {
-        new Day01();
+        new Quest1();
     }//main
 }//class

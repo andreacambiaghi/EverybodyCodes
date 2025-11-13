@@ -1,4 +1,4 @@
-package ebc2025;
+package ebc_s1;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -13,9 +13,9 @@ public abstract class EBCUtils {
             return;
         }//if
 
-        List<String> part1 = readInputFile("in/day" + day + ".1.txt");
-        List<String> part2 = readInputFile("in/day" + day + ".2.txt");
-        List<String> part3 = readInputFile("in/day" + day + ".3.txt");
+        List<String> part1 = readInputFile("in/quest" + day + ".1.txt");
+        List<String> part2 = readInputFile("in/quest" + day + ".2.txt");
+        List<String> part3 = readInputFile("in/quest" + day + ".3.txt");
 
         solve(part1, part2, part3);
     }//AOCPuzzle
