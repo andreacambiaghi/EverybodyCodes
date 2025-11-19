@@ -12,6 +12,7 @@ public class EBC2025 {
         //new Day08();
         //new Day09();
         //new Day10();
-        new Day11();
+        //new Day11();
+        new Day12();
     }//main
 }//class
