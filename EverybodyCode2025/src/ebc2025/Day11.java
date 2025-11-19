@@ -28,6 +28,22 @@ public class Day11 extends EBCUtils {
         ducks = convertToInts(part2);
         int rounds = 0;
 
+        while(true) {
+            boolean change = firstPhase(ducks);
+            if(!change)
+                break;
+            rounds++;
+        }//while
+
+        while(true) {
+            boolean change = secondPhase(ducks);
+            if(!change)
+                break;
+            rounds++;
+        }//while
+
+        solution(rounds);
+
         // TODO Part 3
 
     }//solve
